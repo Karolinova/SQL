@@ -1,1 +1,1 @@
-# SQL solutions in PostgreSQL and MSSQL
+# SQL solutions in PostgreSQL and MSSQL and their extensions
