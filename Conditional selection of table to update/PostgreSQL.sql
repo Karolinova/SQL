@@ -1,0 +1,1 @@
+-- solution in PostgreSQL - do uzupełnienia
