@@ -19,7 +19,10 @@ begin
 		set status = 'Ukończona'
 		, data_ukonczenia = @data_zakonczenia
 		where epic_id = @epic_id_key;
-		print 'Gra '+ @game +' z Epic została zakończona w dniu ' + CONVERT(NVARCHAR(10),@data_zakonczenia) ;
+		if @@ROWCOUNT = 1
+			begin 
+			print 'Gra '+ @game +' z Epic została zakończona w dniu ' + CONVERT(NVARCHAR(10),@data_zakonczenia) ;
+			end
 	end
 	-- game is on steam
 	else if @steam_tak = 1
@@ -28,7 +31,10 @@ begin
 		set status = 'Ukończona'
 		, data_ukonczenia = @data_zakonczenia
 		where steam_id = @steam_id_key;
-		print 'Gra '+ @game +' z Steam została zakończona w dniu ' + CONVERT(NVARCHAR(10),@data_zakonczenia) ;
+		if @@ROWCOUNT = 1
+			begin
+			print 'Gra '+ @game +' ze Steam została zakończona w dniu ' + CONVERT(NVARCHAR(10),@data_zakonczenia) ; 
+			end
 	end
 		else 
 		begin
