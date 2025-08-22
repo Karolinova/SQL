@@ -3,8 +3,8 @@ Let us assume that we have a table just like below with four people who was cond
 |-----------|-----------|
 | Ania | 1 |
 | Kamila | 2 |
-| Mirek | 4 |
-| Daniel | 5 |
+| Mirek | 3 |
+| Daniel | 4 |
 
 We want to have all information in two tables. We need to add new rows or update existing ones.
 First table 'czy_jest' has an information about name of questionarie and person id:
