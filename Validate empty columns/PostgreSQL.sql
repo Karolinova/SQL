@@ -22,7 +22,7 @@ BEGIN
 		IF lista_brakow IS NOT NULL THEN 
 			RAISE NOTICE 'Braki w kolumnie %: %', kol, lista_brakow;
 		ELSE
-			RAISE NOTICE 'Braki w kolumnie %.', kol;
+			RAISE NOTICE 'Nie ma braków w kolumnie %.', kol;
 		END IF;
 	END LOOP;
 END;
