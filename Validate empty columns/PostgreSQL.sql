@@ -12,9 +12,10 @@ BEGIN
 			$q$
 			SELECT ARRAY_AGG(DISTINCT nr_polisy) AS lista
 			FROM %I
-			WHERE %I IS NULL
+			WHERE %I IS NULL OR %I::text = ''::text
 			$q$,
 			tabela,
+			kol,
 			kol
 		)
 		INTO lista_brakow;
