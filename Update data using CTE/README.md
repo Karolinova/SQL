@@ -1,4 +1,4 @@
-# Update column using CTE (Common Table Expression)
+# SQL Solution for update column using CTE (Common Table Expression)
 
 Let's us assume that we have a table just like below:
 |nazwa|trik1_id|trik2_id|trik3_id|

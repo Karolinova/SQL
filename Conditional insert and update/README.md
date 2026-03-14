@@ -1,3 +1,4 @@
+# SQL Solution for conditional insert and update
 Let us assume that we have a table just like below with four people who was conducted by survey:
 | imie | id |
 |-----------|-----------|

@@ -1,3 +1,4 @@
+# SQL Solution for validate empty columns
 Let us assume that we heave a table just like below:
 | nr_polisy | data_wyst_polisy | ubezpieczajacy | posrednik |
 |-----------|-----------|-----------|-----------|
