@@ -15,4 +15,5 @@ Let us assume that we have a table just like below with informations about produ
 | 11 | K | Barista | 18 | 2026-03-03 |
 | 12 | P | Latte | 12 | 2026-03-07 |
 | 13 | K | Latte | 15 | 2026-03-13 |
+
 We want to know we want to know what amount was received, broken down by month and product. In addition, we want the total at the end of each month.
