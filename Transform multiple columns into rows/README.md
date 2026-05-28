@@ -27,7 +27,7 @@ Expected result:
 
 Both solutions return the same result but use different SQL techniques.
 
-* `UNION ALL` is easier to understand, but requires duplicating the same code. It works in both PostgreSQL and MSSQL -['Union' solution] (postgresql_mssql_union.sql)
-* `CROSS JOIN LATERAL` in PostgreSQL and 'CROSS APPLY' in MSSQL are more complex, but with a large number of columns become more readable. ['Cross' solution](postgresql_mssql_cross.sql)
+* `UNION ALL` is easier to understand, but requires duplicating the same code. It works in both PostgreSQL and MSSQL - ['Union' solution](postgresql_mssql_union.sql).
+* `CROSS JOIN LATERAL` in PostgreSQL and 'CROSS APPLY' in MSSQL are more complex, but with a large number of columns become more readable - ['Cross' solution](postgresql_mssql_cross.sql).
 
 This normalized structure makes future validations and analyses easier than the original one.
