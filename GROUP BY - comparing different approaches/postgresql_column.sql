@@ -4,7 +4,7 @@ select agr.imie, agr.nazwisko, agr.miasto
 , sum(ap.czas_trwania_gry) as laczny_czas_gry
 , array_agg(ap.id) as lista_partii
 , array_agg(distinct ag.nazwa_gry) as lista_gier
-, max(data_rozgrywki) as ostatnia_gra
+, max(ap.data_rozgrywki) as ostatnia_gra
 from av_gracze agr
 left join av_udzial_w_partii auwp on auwp.id_gracza = agr.id
 left join av_partie ap on ap.id = auwp.id_partii
