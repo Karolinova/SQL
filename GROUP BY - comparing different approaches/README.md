@@ -4,9 +4,6 @@
 The goal of this example is to show three different ways to build the same aggregate report in PostgreSQL. All queries return the same result, but they use different grouping approaches and different ways to return descriptive columns.
 
 ## Sample data
-<table>
-  <tr>
-    <td valign="top">
 
 ### Tabela: av_gracze
 | id | imie | nazwisko | miasto |
@@ -17,9 +14,6 @@ The goal of this example is to show three different ways to build the same aggre
 | 4 | Michał | Zieliński | Gdańsk |
 | 5 | Kasia | Lewandowska | Poznań |
 
-    </td>
-    <td valign="top">
-
 ### Tabela: av_gry
 | id | nazwa | wydawca | rok |
 |:---:|:---|:---|:---:|
@@ -27,15 +21,7 @@ The goal of this example is to show three different ways to build the same aggre
 | 11 | Terraforming Mars | Rebel | 2016 |
 | 12 | Azul | Next Move | 2017 |
 
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top">
-
-### Tabela: udzial_w_partii
+### Tabela: av_udzial_w_partii
 | id_partii | id_gracza | wynik | pozycja |
 |:---:|:---:|:---:|:---:|
 | 100 | 1 | 10 | 2 |
@@ -47,9 +33,6 @@ The goal of this example is to show three different ways to build the same aggre
 | 103 | 1 | 25 | 1 |
 | 103 | 2 | 22 | 2 |
 
-    </td>
-    <td valign="top">
-
 ### Tabela: av_partie
 | id | id_gry | data | czas |
 |:---:|:---:|:---|:---:|
@@ -57,10 +40,6 @@ The goal of this example is to show three different ways to build the same aggre
 | 101 | 11 | 2024-01-12 | 120 |
 | 102 | 10 | 2024-01-15 | 75 |
 | 103 | 12 | 2024-01-20 | 45 |
-
-    </td>
-  </tr>
-</table>
 
 ## Problem
 
