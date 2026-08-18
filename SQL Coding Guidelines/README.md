@@ -7,4 +7,4 @@ and pre-production checklist.
 
 - [SQL Standards](sql_standards.md)
 - [SQL Naming Conventions](sql_naming_conventions.md)
-- SQL Pre-Production Checklist
+- [SQL Pre-Production Checklist](sql_pre_production_checklist.sql)
