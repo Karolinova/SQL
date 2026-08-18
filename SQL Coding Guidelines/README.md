@@ -6,5 +6,5 @@ and pre-production checklist.
 ## Documents
 
 - [SQL Standards](sql_standards.md)
-- SQL Naming Conventions
+- [SQL Naming Conventions](sql_naming_conventions.md)
 - SQL Pre-Production Checklist
